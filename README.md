@@ -18,7 +18,8 @@
 6. КОНЕЦ
 
 **Блок-схема:**
-[Uploadiflowchart TD
+```mermaid
+flowchart TD
     Start([Начало])
     Input[/Ввод A, B/]
     Cond{"(A четное И B нечетное) ИЛИ<br/>(A нечетное И B четное)"}
@@ -32,8 +33,7 @@
     Cond -- Нет --> No
     Yes --> End
     No --> End
-ng blok_shema.mmd…]()
-
+```
 
 ## 2. Реализация программы
 
